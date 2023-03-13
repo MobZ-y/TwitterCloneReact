@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  background: rgb(42, 42, 51);
+}
+
+.main-flex {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+nav li {
+  padding: 10px;
+}
+
+.main {
+  border: 1px solid black;
+  height: 100vh;
+  max-width: 600px;
+  width: 600px;
+}/*# sourceMappingURL=index.css.map */
