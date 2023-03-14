@@ -10,7 +10,8 @@ li {
 }
 
 body {
-  background: rgb(42, 42, 51);
+  background: rgb(20, 20, 22);
+  font-family: inherit;
 }
 
 .main-flex {
@@ -19,8 +20,21 @@ body {
   color: white;
 }
 
-nav li {
+nav {
+  margin-right: 40px;
+}
+nav .nav-title {
   padding: 10px;
+  font-size: 22px;
+  display: flex;
+  cursor: pointer;
+}
+nav .nav-title:hover {
+  background-color: rgb(59, 59, 59);
+  border-radius: 25px;
+}
+nav .nav-title .nav-icon {
+  padding-right: 15px;
 }
 
 .main {
@@ -28,4 +42,8 @@ nav li {
   height: 100vh;
   max-width: 600px;
   width: 600px;
+}
+
+.trending {
+  width: 350px;
 }/*# sourceMappingURL=index.css.map */

@@ -1,5 +1,18 @@
 nav {
-  li {
+  margin-right: 40px;
+  .nav-title {
     padding: 10px;
+    font-size: 22px;
+    display: flex;
+    cursor: pointer;
+
+    &:hover {
+      background-color: rgb(59, 59, 59);
+      border-radius: 25px;
+    }
+
+    .nav-icon {
+      padding-right: 15px;
+    }
   }
 }
