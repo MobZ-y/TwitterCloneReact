@@ -1,6 +1,16 @@
 .main {
-  border: 1px solid black;
+  border: 1px solid rgb(255, 0, 0);
   height: 100vh;
   max-width: 600px;
   width: 600px;
+  position: relative;
+  overflow-y: auto;
+
+  .nav-main {
+    width: 100%;
+    position: sticky;
+    background-color: rgb(15, 15, 15);
+    color: white;
+    padding: 18px 0px;
+  }
 }

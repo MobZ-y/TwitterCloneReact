@@ -12,3 +12,12 @@ body {
   background: rgb(20, 20, 22);
   font-family: inherit;
 }
+
+::-webkit-scrollbar {
+  width: 0px;
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #000000;
+}

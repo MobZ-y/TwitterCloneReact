@@ -14,6 +14,15 @@ body {
   font-family: inherit;
 }
 
+::-webkit-scrollbar {
+  width: 0px;
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #000000;
+}
+
 .main-flex {
   display: flex;
   justify-content: center;
@@ -28,6 +37,7 @@ nav .nav-title {
   font-size: 22px;
   display: flex;
   cursor: pointer;
+  overflow: hidden;
 }
 nav .nav-title:hover {
   background-color: rgb(59, 59, 59);
@@ -38,10 +48,19 @@ nav .nav-title .nav-icon {
 }
 
 .main {
-  border: 1px solid black;
+  border: 1px solid rgb(255, 0, 0);
   height: 100vh;
   max-width: 600px;
   width: 600px;
+  position: relative;
+  overflow-y: auto;
+}
+.main .nav-main {
+  width: 100%;
+  position: sticky;
+  background-color: rgb(15, 15, 15);
+  color: white;
+  padding: 18px 0px;
 }
 
 .trending {

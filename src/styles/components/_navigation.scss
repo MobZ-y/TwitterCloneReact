@@ -6,6 +6,8 @@ nav {
     display: flex;
     cursor: pointer;
 
+    overflow: hidden;
+
     &:hover {
       background-color: rgb(59, 59, 59);
       border-radius: 25px;
